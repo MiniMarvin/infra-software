@@ -157,7 +157,7 @@ game_loop:
 	mov dx, word [count_for_ball_delay]
 	inc dx
 	mov word [count_for_ball_delay], dx
-	cmp word [count_for_ball_delay], 300
+	cmp word [count_for_ball_delay], 100
 	je dec_max_timer
 	jmp end_dec_max_timer
 
